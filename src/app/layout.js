@@ -1,14 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cairo } from "next/font/google";
 import "./globals.css";
+import TopAds from "./component/TopAds.js/TopAds";
+import Navbar, { NavbarLayout } from "./component/navbar/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const cairo = Cairo({
+  variable: "--font-cairo",
+  subsets: ["arabic"],
+  display : 'swap'
 });
 
 export const metadata = {
@@ -18,10 +16,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ar">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${cairo.variable} antialiased`}
       >
+            <nav><TopAds/></nav>
+           <nav  className="sticky top-0 start-0 w-full z-20"><NavbarLayout/></nav>
         {children}
       </body>
     </html>
