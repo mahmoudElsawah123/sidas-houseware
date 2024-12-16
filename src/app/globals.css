@@ -31,7 +31,6 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-cairo), Arial, Helvetica, sans-serif;
-  height: 300vh;
 }
 .container{
   margin: auto

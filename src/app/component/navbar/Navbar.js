@@ -21,7 +21,7 @@ export function NavbarLayout() {
       <div className="block md:hidden">
         <FaBars size={30} onClick={() => setIsOpen(false)}/>
       </div>
-        <Image src={logo} className="mx-3 w-[92px] md:w-auto" alt="Flowbite React Logo" />
+        <Image src={logo} className="mx-3 w-[86px] md:w-auto" alt="Flowbite React Logo" />
         <div className="hidden lg:flex items-center mx-5 gap-7">
           <div className="flex items-center">
             <span className="text-[1rem] font-bold">فئات</span>
@@ -43,7 +43,8 @@ export function NavbarLayout() {
             <input
               type="search"
               id="default-search"
-              className="font-bold block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary-500 focus:border-primary-500"
+              className="font-bold
+              block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary-500 focus:border-primary-500"
               placeholder="ابحث في المنتجات او الماركات"
               required
             />
