@@ -1,7 +1,8 @@
 import { Cairo } from "next/font/google";
 import "./globals.css";
 import TopAds from "./component/TopAds.js/TopAds";
-import Navbar, { NavbarLayout } from "./component/navbar/Navbar";
+import { NavbarLayout } from "./component/navbar/Navbar";
+import Footer from "./component/Footer/Footer";
 
 const cairo = Cairo({
   variable: "--font-cairo",
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
             <nav><TopAds/></nav>
            <nav  className="sticky top-0 start-0 w-full z-20"><NavbarLayout/></nav>
         {children}
+        <Footer/>
       </body>
     </html>
   );
