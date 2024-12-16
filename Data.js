@@ -7,6 +7,15 @@ import hotOfferImage1 from '/public/images/hot-offer-image-1.jpeg'
 import hotOfferImage2 from '/public/images/hot-offer-image-2.jpeg'
 import hotOfferImage3 from '/public/images/hot-offer-image-3.jpg'
 import hotOfferImage4 from '/public/images/hot-offer-image-4.jpeg'
+import product1 from '/public/images/product-1.jpeg'
+import product2 from '/public/images/product-2.jpg'
+import product3 from '/public/images/product-4.jpg'
+import product4 from '/public/images/product-5.jpg'
+import product5 from '/public/images/product-6.jpeg'
+import product6 from '/public/images/product-7.png'
+
+
+
 
 
 export const CategoryData = [
@@ -123,4 +132,67 @@ export const HotOfferData = [
     },
 
 
+]
+export const ProductsData = [
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product1
+
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product2
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product6
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product3
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product4
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product5
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product1
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product2
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product6
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product3
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product4
+    },
+    {
+        desc : 'تكييف سبليت بيكو، موتور انفرتر، 3 حصان، بارد فقط، ابيض - BICT2420',
+        price : 499,
+        image : product5
+    },
 ]

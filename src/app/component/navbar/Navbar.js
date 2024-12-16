@@ -19,7 +19,7 @@ export function NavbarLayout() {
       <Navbar  rounded style={{boxShadow : '0px 2px 4px rgba(0,0,0,.1)'}}>
       <NavbarBrand href="#">
       <div className="block md:hidden">
-        <FaBars size={25} onClick={() => setIsOpen(false)}/>
+        <FaBars size={30} onClick={() => setIsOpen(false)}/>
       </div>
         <Image src={logo} className="mx-3 w-[92px] md:w-auto" alt="Flowbite React Logo" />
         <div className="hidden lg:flex items-center mx-5 gap-7">
