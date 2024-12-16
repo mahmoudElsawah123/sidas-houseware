@@ -60,7 +60,7 @@ function ExclusiveDscounts() {
     <div className="container my-10 " style={{boxShadow : '0px 1px 4px rgba(0,0,0,.06)'}}>
          <h1 className="font-semibold text-[25px] py-10 px-2">خصومات حصرية  </h1>
         <div className="pb-10">
-         <div className="grid grid-cols-2 md:grid-cols-3 items-center justify-between gap-10">
+         <div className="grid grid-cols-2 md:grid-cols-3 items-center justify-between gap-0 md:gap-10">
          {ProductsData.slice(0,6).map((ele , index)=>{
             return (
                 <div key={index}  style={{boxShadow : '0px 2px 12px rgba(0,0,0,.1)'}}>
